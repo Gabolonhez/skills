@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: rejeicao-2-1-information-needed
+expected_outcome: |
+  Monta o pacote do revisor: Notes em inglês respondendo item a item, roteiro do vídeo em iPhone físico desde a abertura (cadastro, login, exclusão de conta, conteúdo pago, consentimento de IA se houver), conta demo com os requisitos da skill e resposta ao Resolution Center.

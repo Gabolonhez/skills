@@ -1,0 +1,42 @@
+[
+  {
+    "query": "vou subir a versão 2.3 do meu app pra app store hoje à noite, adicionei um chat com IA usando a api do gemini. tem alguma coisa que a apple vai barrar?",
+    "should_trigger": true
+  },
+  {
+    "query": "chegou isso no resolution center: Guideline 2.1 - Performance - App Completeness, We discovered one or more bugs in your app when reviewed on iPad Air (5th generation). o que faço?",
+    "should_trigger": true
+  },
+  {
+    "query": "coloquei login com facebook no app (expo sdk 52), preciso de mais alguma coisa pra publicar no iOS?",
+    "should_trigger": true
+  },
+  {
+    "query": "me ajuda a escrever as notes for review e a conta demo pro revisor da apple, o app tem assinatura anual e onboarding longo",
+    "should_trigger": true
+  },
+  {
+    "query": "o build ficou 'Missing Compliance' no testflight e ninguém consegue testar, o que é isso e como evito nos próximos builds?",
+    "should_trigger": true
+  },
+  {
+    "query": "app de lembrete de remédio: o usuário digita o peso e o app mostra quantos ml tomar. dá pra publicar na app store como dev independente?",
+    "should_trigger": true
+  },
+  {
+    "query": "corrige esse bug de CSS: o botão do paywall fica cortado no iphone SE, o padding não respeita a safe area",
+    "should_trigger": false
+  },
+  {
+    "query": "gera os screenshots da app store pro meu app nos tamanhos de 6.9 e 6.5 polegadas com mockup de iphone",
+    "should_trigger": false
+  },
+  {
+    "query": "configura o eas build pra gerar um apk de preview pra eu mandar pros testadores no android",
+    "should_trigger": false
+  },
+  {
+    "query": "cria a tela de paywall do app com três planos e um toggle de anual/mensal usando reanimated",
+    "should_trigger": false
+  }
+]

@@ -1,0 +1,4 @@
+{ "ios": {
+  "NSCameraUsageDescription": "Usamos la cámara para que tomes una foto de tu comida y la guardes en tu diario.",
+  "NSUserTrackingUsageDescription": "Usamos este identificador solo para saber de qué anuncio llegaste. Tus datos nunca se venden."
+} }

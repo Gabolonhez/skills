@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: login-google-sem-apple
+expected_outcome: |
+  Aponta a 4.8: login com Google como conta principal exige oferecer Sign in with Apple (ou login equivalente com os requisitos da 4.8), explica a implementação e a revogação do token na exclusão de conta.

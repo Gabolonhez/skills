@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: rejeicao-5-1-2-ia-terceiros
+expected_outcome: |
+  Mapeia 5.1.1(i)/5.1.2(i), identifica que o resumo semanal (e qualquer outro ponto de entrada) não passa pelo consentimento, que a conta demo provavelmente já tinha o consentimento, propõe portão único de consentimento, novo build e uma resposta curta em inglês para o Resolution Center.

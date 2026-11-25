@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: gate-expo-ia-assinatura
+expected_outcome: |
+  Roda a auditoria estática no projeto, aponta IA de terceiros sem consentimento (5.1.2(i)), ausência de exclusão de conta (5.1.1(v)), privacy manifest, iPad habilitado e falta da declaração de criptografia, lista o pacote do revisor e termina com VEREDITO: BLOQUEADO.
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Exemplo",
+    "slug": "exemplo",
+    "ios": {
+      "supportsTablet": false,
+      "usesAppleSignIn": true,
+      "config": { "usesNonExemptEncryption": false },
+      "infoPlist": {
+        "CFBundleLocalizations": ["en", "pt-BR", "es"],
+        "NSCameraUsageDescription": "We use the camera so you can take a photo of your meal and save it in your diary.",
+        "NSUserTrackingUsageDescription": "We use this identifier only to know which ad brought you to the app. Your data is never sold."
+      },
+      "privacyManifests": {
+        "NSPrivacyTracking": true,
+        "NSPrivacyAccessedAPITypes": [
+          { "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults", "NSPrivacyAccessedAPITypeReasons": ["CA92.1"] }
+        ],
+        "NSPrivacyCollectedDataTypes": [
+          { "NSPrivacyCollectedDataType": "NSPrivacyCollectedDataTypeOtherUserContent", "NSPrivacyCollectedDataTypeLinked": true, "NSPrivacyCollectedDataTypeTracking": false, "NSPrivacyCollectedDataTypePurposes": ["NSPrivacyCollectedDataTypePurposeAppFunctionality"] }
+        ]
+      }
+    },
+    "locales": { "pt-BR": "./locales/pt-BR.json", "es": "./locales/es.json" },
+    "plugins": [["expo-tracking-transparency", { "userTrackingPermission": "We use this identifier only to know which ad brought you to the app. Your data is never sold." }]]
+  }
+}

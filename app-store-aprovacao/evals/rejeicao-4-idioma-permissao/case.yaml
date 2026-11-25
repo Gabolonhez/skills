@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: rejeicao-4-idioma-permissao
+expected_outcome: |
+  Explica que o valor base do Info.plist está em português com região de desenvolvimento en, que com ios/ versionado o EAS não roda os config plugins, e manda colocar o valor base em inglês e InfoPlist.strings em cada idioma no ios/ commitado, testando com o aparelho em cada idioma.

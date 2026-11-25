@@ -1,0 +1,2 @@
+{ "expo": { "name": "Ruim", "ios": { "supportsTablet": true, "config": { "usesNonExemptEncryption": false },
+  "infoPlist": { "NSCameraUsageDescription": "Precisamos acessar sua câmera para você fotografar a refeição." } } } }

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: saude-registro-de-dose
+expected_outcome: |
+  Separa registro de dose prescrita (permitido) da tela que calcula/sugere dose (1.4.2, bloqueio para desenvolvedor independente), recomenda remover a função do build iOS (não esconder por flag remota, 2.5.19), cobre aviso de consultar médico (1.4.1) e dados de saúde no privacy manifest, e conclui BLOQUEADO enquanto a calculadora existir.

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: exclusao-conta-sign-in-with-apple
+expected_outcome: |
+  Explica 5.1.1(v): exclusão completa dentro do app, fácil de achar; com Sign in with Apple, trocar authorizationCode por refresh token e chamar /auth/revoke no servidor; falha na revogação não impede a exclusão; teste de excluir e tentar logar de novo.

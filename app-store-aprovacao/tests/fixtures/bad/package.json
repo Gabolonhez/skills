@@ -1,0 +1,2 @@
+{ "name": "exemplo-ruim", "private": true,
+  "dependencies": { "expo": "54.0.0", "@react-native-google-signin/google-signin": "16.0.0", "react-native-purchases": "9.0.0", "react-native-appsflyer": "6.0.0", "@react-native-firebase/auth": "22.0.0", "openai": "5.0.0" } }

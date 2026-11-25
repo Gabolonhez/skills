@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Diario",
+    "slug": "diario",
+    "ios": {
+      "supportsTablet": true,
+      "usesAppleSignIn": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "We use the camera so you can take a photo of your meal and save it in your diary."
+      }
+    }
+  }
+}
